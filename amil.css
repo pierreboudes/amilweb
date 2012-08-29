@@ -1,0 +1,285 @@
+body {
+    background: url("img/fondsimple.png") 8px 8px;
+}
+
+#main {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    min-height: 700px;
+    background-image: url("img/fond.png");
+    background-repeat: no-repeat;
+/*    font-family: 'Delius Unicase', cursive; */
+    font-family: 'Permanent Marker', cursive;
+    color: darkblue;
+}
+
+
+
+#RI {
+    position: absolute;
+    top: 45px;
+    left: 26px;
+    width: 230px;
+    height: 31px;
+    text-align: center;
+    font-size: 22px;
+    padding-top: 0px;
+}
+
+#CP {
+ position: absolute;
+ top: 100px;
+ left: 179px;
+ width: 67px;
+ height: 31px;
+ text-align: right;
+ font-size: 22px;
+}
+
+#R0 {
+ position: absolute;
+ top: 156px;
+ left: 179px;
+ width: 67px;
+ height: 31px;
+ text-align: right;
+ font-size: 22px;
+}
+
+#R1 {
+ position: absolute;
+ top: 210px;
+ left: 179px;
+ width: 67px;
+ height: 31px;
+ text-align: right;
+ font-size: 22px;
+}
+
+#R2 {
+ position: absolute;
+ top: 266px;
+ left: 179px;
+ width: 67px;
+ height: 31px;
+ text-align: right;
+ font-size: 22px;
+}
+
+#R3 {
+ position: absolute;
+ top: 322px;
+ left: 179px;
+ width: 67px;
+ height: 31px;
+ text-align: right;
+ font-size: 22px;
+}
+
+#R4 {
+ position: absolute;
+ top: 378px;
+ left: 179px;
+ width: 67px;
+ height: 31px;
+ text-align: right;
+ font-size: 22px;
+}
+
+#R5 {
+ position: absolute;
+ top: 434px;
+ left: 178px;
+ width: 67px;
+ height: 31px;
+ text-align: right;
+ font-size: 22px;
+}
+
+#R6 {
+ position: absolute;
+ top: 487px;
+ left: 179px;
+ width: 67px;
+ height: 31px;
+ text-align: right;
+ font-size: 22px;
+}
+
+#R7 {
+ position: absolute;
+ top: 542px;
+ left: 179px;
+ width: 67px;
+ height: 31px;
+ text-align: right;
+ font-size: 22px;
+}
+
+div.numeroligne {
+  float: left;
+  text-align: right;
+  width: 30px;
+//  font-size: 10pt;
+  margin-right: 5px;
+}
+pre {
+  margin: 0px;
+  padding: 0px;
+}
+div.ligne {
+  clear: both;
+}
+#memconteneur {
+    font-family: "Courier New", monospace;
+    font-size: 11pt;
+    position: absolute;
+    top: 34px;
+    left: 380px;
+}
+#mem > textarea {
+    background: none;
+    width: 60em;
+}
+.active {
+ background-color: #FFFF00;
+}
+.read {
+ background-color: green;
+}
+.wrote {
+ background-color: red;
+}
+
+
+#runtimenav {
+    position: absolute;
+    top: 300px;
+    left: 265px;    
+}
+#step {
+    position: relative;
+    left: -10px;
+    width: 150px;
+    height: 45px;
+    background-image: url(img/boutonpasapas1-small.png);
+    background-repeat: no-repeat;
+}
+#step:active {
+    background-image: url(img/boutonpasapas2-small.png);
+}
+#run {
+    position: relative;
+    left: -20px;
+    width: 170px;
+    height: 65px;
+    background-image: url(img/boutonexecuter1-small.png);
+    background-repeat: no-repeat;
+}
+
+#run:active {
+    background-image: url(img/boutonexecuter2-small.png);
+}
+#reset {
+    position: relative;
+    left: 0px;
+    top: -60px;
+    width: 140px;
+    height: 50px;
+    background-image: url(img/boutonreset1-small.png);
+    background-repeat: no-repeat;
+}
+
+#reset:active {
+    background-image: url(img/boutonreset2-small.png);
+}
+#stop {
+    position: relative;
+    left: -520px;
+    top: -60px;
+    width: 170px;
+    height: 54px;
+    background-image: url(img/boutonstopper1-small.png);
+    background-repeat: no-repeat;
+}
+#stop:active {
+    background-image: url(img/boutonstopper2-small.png);
+}
+#load {
+    position: relative;
+    left: -800px;
+    width: 165px;
+    height: 60px;
+    background-image: url(img/boutoncharger1-small.png);
+    background-repeat: no-repeat;
+}
+
+#load:active {
+    background-image: url(img/boutoncharger2-small.png);
+}
+
+textarea {
+    color: darkblue;
+    font-family: 'Courier New', monospace;
+    font-size: 11pt;
+    font-weight: bold;
+    border: none;
+    margin-left: 20px;
+}
+
+#addressbus {
+    position: absolute;
+    width: 91px;
+    height: 38px;
+    top: 154px;
+    left: 230px;
+    background-image: url('img/busanim1.gif');
+}
+
+#datasbus {
+    position: absolute;
+    width: 91px;
+    height: 38px;
+    top: 250px;
+    left: 320px;
+    background-image: url('img/busanim2.gif');
+}
+
+.readbus {
+    background-image: url('img/busanim2.gif');
+}
+
+#datasbus.writebus {
+    left: 230px;
+    background-image: url('img/busanim1.gif');
+}
+
+
+div.erreur {
+    font-family: "Courier New", monospace;
+    font-size: 11pt;
+  position: absolute;
+  width: 150px;
+  top:450px;
+  left: 250px;
+  border: 2px red solid;
+  margin: 2px;
+  background-color: white;
+}
+
+img.erreur_bus {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: 100px;
+    left: 240px;
+}
+img.erreur_bus2 {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: 200px;
+    left: 240px;
+}

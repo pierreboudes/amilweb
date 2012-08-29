@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Amil: assembleur miniature pour l'informatique de
+licence</title>
+<script type="text/javascript"
+src="jquery-1.6.2.min.js"></script>
+<script type='text/javascript' src="amil.js"></script>
+<link rel="stylesheet" type="text/css" href="amil.css" />
+<link href='http://fonts.googleapis.com/css?family=Permanent+Marker' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+<h1></h1>
+<div id="main">
+<div id="memconteneur"><pre id="mem"><textarea>
+lecture 10 r0
+lecture 11 r1
+sautpos r1 5
+inverse r1
+soustr r1 r0
+sautpos r0 5
+inverse r0
+ecriture r0 12
+stop
+12
+-5
+? 
+</textarea>
+</pre>
+<div id="splitmem">
+</div>
+</div>
+<div id="RI">
+instruction
+</div>
+<div id="CP">
+1 
+</div>
+<div id="R0">
+0
+</div>
+<div id="R1">
+0
+</div>
+<div id="R2">
+0
+</div>
+<div id="R3">
+0
+</div>
+<div id="R4">
+0
+</div>
+<div id="R5">
+0
+</div>
+<div id="R6">
+0
+</div>
+<div id="R7">
+0
+</div>
+<div id="runtimenav" class="boutons">
+  <div id="step">&nbsp;</div>
+  <div id="run">&nbsp;</div>
+  <div id="stop">&nbsp;</div>
+  <div id="reset">&nbsp;</div>
+</div>
+<div id="bus">
+  <div id="addressbus"></div>
+    <div id="datasbus"></div>
+</div>
+<div>
+</body>
+</html>
